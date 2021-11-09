@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 100px 1fr auto;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: aquamarine;
+}
+
+header li {
+    display: inline;
+    padding: 1rem;
+}
