@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 ul {
@@ -11,20 +12,31 @@ ul {
 body {
     display: grid;
     grid-template-rows: 100px 1fr auto;
+
 }
 
-.logo img {
-    width: 100px;
-    border-radius: 50px;
+* a {
+    text-decoration: none;
+    color:unset;
+    transition: .3s;
+}
+
+header img {
+    height: 80px;
 }
 
 header {
+    color: #f0ae5e;
     display: grid;
-    grid-auto-flow: column;
-    background-color: aquamarine;
+    grid-template-columns: repeat(7, auto);
+    grid-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #2f3687;
+    letter-spacing: 2px;
 }
 
-header li {
-    display: inline;
-    padding: 1rem;
+header a:hover {
+    color: #f1cf3d;
 }
