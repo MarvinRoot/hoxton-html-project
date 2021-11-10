@@ -244,6 +244,13 @@ header a:hover {
 
   .contact {
       display: grid;
+      grid-auto-flow: column;
+      justify-items: center;
+      align-items: center;
+  }
+
+  .contact-info {
+      display: grid;
       grid-gap: 6rem;
   }
 
@@ -252,6 +259,10 @@ header a:hover {
       justify-content: center;
       grid-template-columns: repeat(4, auto);
       grid-gap: 3rem;
+  }
+
+  .mapouter {
+      box-shadow: 10px 10px 30px black;
   }
 
  #bball {
