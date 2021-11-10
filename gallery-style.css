@@ -49,6 +49,6 @@ main img {
     box-shadow: 5px 5px 20px black;
 }
 
-img:hover {
+main img:hover {
     width: 330px;
 }
