@@ -178,7 +178,7 @@ header a:hover {
 
 .partners {
     display: grid;
-    grid-gap: 2rem;
+    grid-gap: 4rem;
     margin: 2rem;
     margin-top: 4rem;
 }
@@ -240,6 +240,18 @@ header a:hover {
   .gallery .button:hover {
       background-color: #f0ae5e;
       color: #2f3687;
+  }
+
+  .contact {
+      display: grid;
+      grid-gap: 6rem;
+  }
+
+  .contact-logo {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(4, auto);
+      grid-gap: 3rem;
   }
 
  #bball {
