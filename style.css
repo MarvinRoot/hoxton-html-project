@@ -251,7 +251,7 @@ header a:hover {
 
   .contact-info {
       display: grid;
-      grid-gap: 6rem;
+      grid-gap: 3rem;
   }
 
   .contact-logo {
@@ -261,8 +261,46 @@ header a:hover {
       grid-gap: 3rem;
   }
 
+  .contact form {
+      display: grid;
+      grid-gap: 1rem;
+      justify-content: center;
+  }
+
+  .contact input, select, textarea{
+    border: none;
+    border-bottom: solid rgb(202, 200, 200) 1px;
+    padding: 15px 0px;
+    width: 270px ;
+}
+
+.contact-info button {
+    background-color: #2f3687; 
+    color: #f0ae5e;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 270px ;
+    transition-duration: 0.4s;
+}
+
+.contact-info button:hover {
+    background-color: #f0ae5e;
+      color: #2f3687;
+      cursor: pointer;
+}
+
   .mapouter {
       box-shadow: 10px 10px 30px black;
+  }
+
+  footer {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      background-color: #2f3687;
+      color: #f0ae5e;
   }
 
  #bball {
