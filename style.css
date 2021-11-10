@@ -60,7 +60,7 @@ header a:hover {
 
 
 .pimg1 {
-    background-image: url('/images/18.PNG');
+    background-image: url('/images/wallpaper1.png');
     height: 800px;
 }
 
@@ -70,7 +70,7 @@ header a:hover {
 }
 
 .pimg3 {
-    background-image: url('/images/wallpaper1.png');
+    background-image: url('/images/team1.png');
     height: 500px;
 }
 
@@ -148,6 +148,31 @@ header a:hover {
     color: #f0ae5e;
     text-align: center;
     line-height: 25px;
+}
+
+.team-pics {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: baseline;
+    justify-items: center;
+}
+
+.team-pics img {
+    height: 400px;
+}
+
+.team-pics .pics {
+    display: grid;
+    grid-gap: 1rem;
+    justify-items: center;
+    color: #f0ae5e;
+}
+
+.team-pics h1 {
+    color: #f0ae5e;
 }
 
  #bball {
