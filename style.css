@@ -204,7 +204,6 @@ header a:hover {
     background-repeat: no-repeat;
     display: grid;
     grid-gap: 4rem;
-
 }
 
 .gallery-pics {
@@ -217,9 +216,16 @@ header a:hover {
 
 .gallery-pics img {
     width: 300px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.644);
+}
+
+.gallery .button-div {
+    display: grid;
+    justify-items: center;
 }
 
 .gallery .button {
+    width: 150px;
     background-color: #2f3687; /* Green */
     border: none;
     color: #f0ae5e;
