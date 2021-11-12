@@ -21,6 +21,10 @@ ul {
     transition: .3s;
 }
 
+.container{
+    display: grid;
+}
+
 header img {
     height: 80px;
 }
@@ -145,7 +149,9 @@ header a:hover {
 .about-us-organised {
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit ,minmax(500px, auto));
+    grid-template-columns: repeat(auto-fit ,minmax(400px, auto));
+    grid-gap: 1rem;
+    align-items: center;
 }
 
 .about-us-info {
@@ -156,7 +162,6 @@ header a:hover {
 
 .about-us-info p, h1{
     max-width: 80ch;
-    min-width: 10ch;
     text-align: center;
     line-height: 25px;
     color: #0d0f25;
@@ -190,8 +195,8 @@ header a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    justify-items: center;
     align-items: center;
 }
 
@@ -395,5 +400,13 @@ header a:hover {
 
     #bball {
         display: none;
+    }
+
+    .event-1 img {
+        width: 200px;
+    }
+
+    .pimg1 {
+        height: 500px;
     }
 }
